@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import MainView from "@/views/MainView";
 
 Vue.use(VueRouter)
 
@@ -8,13 +7,8 @@ const routes = [
   {
     path: '/',
     name: 'main',
-    component: MainView
-  },
-  {
-    path: '/products',
-    name: 'products',
     component: () => import('../views/ProductsView')
-  }
+  },
 ]
 
 const router = new VueRouter({

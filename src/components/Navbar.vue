@@ -8,9 +8,6 @@
       <v-btn outlined class="ml-3">
         <router-link class="nav-link" to="/">Главная</router-link>
       </v-btn>
-      <v-btn outlined class="ml-3">
-        <router-link class="nav-link" to="/products">Товары</router-link>
-        </v-btn>
     </v-app-bar>
   </v-container>
 </template>
